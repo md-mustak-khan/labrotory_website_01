@@ -1,0 +1,1038 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Mustak Khan | Research Portfolio</title>
+    <meta name="description"
+        content="Official research portfolio of Md. Mustak Khan — Biochemist, Molecular Biologist, and Bioinformatics Researcher specializing in Phytomedicine, C. elegans in vivo assays, and Computer-Aided Drug Design (CADD).">
+    <meta property="og:title" content="Md. Mustak Khan | Research Portfolio">
+    <meta property="og:description"
+        content="Researcher in Biochemistry, Molecular Biology, C. elegans model studies, and Computer-Aided Drug Discovery at University of Chittagong and BioPC.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://md-mustak-khan.github.io/">
+    <meta property="og:image" content="https://md-mustak-khan.github.io/images/Md.%20Mustak%20khan.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles-extended.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="logo_main.png" />
+    <link rel="icon" type="image/png" href="logo_main.png" />
+
+
+<style id="essential-hero-theme">
+
+/* Modern Cover Image & Compact Floating Badges */
+.cover-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.cover-text {
+    flex: 1 1 55%;
+    max-width: 620px;
+}
+.cover-image-container {
+    position: relative;
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 440px;
+}
+.hero-image-glow {
+    position: absolute;
+    width: 320px;
+    height: 380px;
+    background: radial-gradient(circle, rgba(52, 152, 219, 0.28) 0%, rgba(41, 128, 185, 0.12) 50%, transparent 75%);
+    filter: blur(40px);
+    z-index: 1;
+    pointer-events: none;
+    border-radius: 50%;
+}
+.hero-avatar-card {
+    position: relative;
+    width: 310px;
+    height: 380px;
+    border-radius: 28px;
+    padding: 7px;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.18) 0%, rgba(52, 152, 219, 0.22) 50%, rgba(255, 255, 255, 0.05) 100%);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.12), inset 0 1px 1px rgba(255, 255, 255, 0.25);
+    z-index: 2;
+    transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s ease;
+}
+.hero-avatar-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 28px 55px rgba(0, 0, 0, 0.45), 0 0 30px rgba(52, 152, 219, 0.35), 0 0 0 1px rgba(52, 152, 219, 0.4);
+}
+.hero-avatar-inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
+    overflow: hidden;
+    position: relative;
+    background: #0b1528;
+}
+.hero-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+    transition: transform 0.5s ease;
+}
+.hero-avatar-card:hover .hero-main-img {
+    transform: scale(1.03);
+}
+.hero-status-pill {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 12px;
+    background: rgba(7, 14, 38, 0.88);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(46, 204, 113, 0.35);
+    border-radius: 20px;
+    color: #eaf2f8;
+    font-size: 0.72rem;
+    font-weight: 500;
+    white-space: nowrap;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    z-index: 3;
+}
+.status-dot {
+    width: 7px;
+    height: 7px;
+    background: #2ecc71;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #2ecc71;
+    animation: statusPulse 2s infinite ease-in-out;
+}
+@keyframes statusPulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+}
+.hero-float-badge {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 6px 13px;
+    background: rgba(7, 14, 38, 0.85);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 30px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.32), 0 0 10px rgba(52, 152, 219, 0.12);
+    z-index: 4;
+    transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    user-select: none;
+    white-space: nowrap;
+}
+.hero-float-badge:hover {
+    transform: translateY(-4px) scale(1.03) !important;
+    background: rgba(9, 18, 48, 0.95);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.42), 0 0 16px rgba(52, 152, 219, 0.25);
+    border-color: rgba(52, 152, 219, 0.45);
+}
+.float-badge-1 {
+    top: 20px;
+    right: -15px;
+    animation: badgeFloat1 5s ease-in-out infinite;
+}
+.float-badge-2 {
+    bottom: 50px;
+    left: -25px;
+    animation: badgeFloat2 6s ease-in-out infinite 0.8s;
+}
+.float-badge-3 {
+    bottom: -10px;
+    right: 5px;
+    animation: badgeFloat3 5.5s ease-in-out infinite 1.5s;
+}
+@keyframes badgeFloat1 {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-7px); }
+}
+@keyframes badgeFloat2 {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+}
+@keyframes badgeFloat3 {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+.float-badge-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    flex-shrink: 0;
+}
+.icon-publications { background: rgba(46, 204, 113, 0.18); color: #2ecc71; border: 1px solid rgba(46, 204, 113, 0.35); }
+.icon-cadd { background: rgba(52, 152, 219, 0.18); color: #3498db; border: 1px solid rgba(52, 152, 219, 0.35); }
+.icon-bio { background: rgba(155, 89, 182, 0.18); color: #9b59b6; border: 1px solid rgba(155, 89, 182, 0.35); }
+.float-badge-info { display: flex; flex-direction: column; line-height: 1.25; }
+.float-badge-val { font-size: 0.8rem; font-weight: 700; color: #ffffff; letter-spacing: -0.2px; }
+.float-badge-lbl { font-size: 0.67rem; color: #94a3b8; font-weight: 500; }
+
+@media (max-width: 900px) {
+    .cover-content { flex-direction: column-reverse; text-align: center; gap: 30px; }
+    .cover-text { max-width: 100%; }
+    .cover-buttons { justify-content: center; }
+    .hero-avatar-card { width: 270px; height: 330px; }
+    .float-badge-1 { right: -5px; }
+    .float-badge-2 { left: -10px; }
+}
+@media (max-width: 480px) {
+    .hero-avatar-card { width: 230px; height: 280px; }
+    .hero-float-badge { padding: 4px 10px; gap: 6px; }
+    .float-badge-icon { width: 24px; height: 24px; font-size: 0.68rem; }
+    .float-badge-val { font-size: 0.72rem; }
+    .float-badge-lbl { font-size: 0.6rem; }
+    .float-badge-1 { top: 5px; right: -5px; }
+    .float-badge-2 { bottom: 35px; left: -5px; }
+    .float-badge-3 { bottom: -15px; right: 0; }
+}
+
+</style>
+</head>
+
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="https://md-mustak-khan.github.io/"><img src="logo_main.png" alt="Logo"
+                        style="height: 40px;"></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="https://md-mustak-khan.github.io/" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="research.html" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="publications.html" class="nav-link">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="advisor.html" class="nav-link">Advisor</a>
+                </li>
+                <li class="nav-item">
+                    <a href="protocols.html" class="nav-link">Lab Protocols</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resources.html" class="nav-link">Resources &amp; Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a href="teaching.html" class="nav-link">Teaching</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="i04">
+                <button class="i04-t" aria-label="toggle"><i class="i04-hk"></i><span class="i04-top"></span><span
+                        class="i04-g"><i class="i04-fl"></i></span><span class="i04-bot"></span></button>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══ HERO / COVER SECTION ═══════════════════════════════════════════════ -->
+    <section class="cover-section" id="main-content">
+        <div class="cover-content">
+            <div class="cover-text">
+                <div class="hero-affiliation-badge">
+                    <i class="fas fa-university"></i> University of Chittagong
+                </div>
+                <h1>Md. Mustak Khan</h1>
+                <p class="hero-typing">
+                    <span class="hero-typing-prefix">Researcher in</span>
+                    <span class="hero-typing-target" id="hero-typing-target"
+                        data-words="Phytomedicine, Molecular Biology, Bioinformatics &amp; CADD, C. elegans Model Studies">Phytomedicine</span>
+                    <span class="hero-typing-cursor" aria-hidden="true">|</span>
+                </p>
+                <p class="hero-summary-text">
+                    B.Sc. (Honours) &amp; M.S. in Biochemistry and Molecular Biology, University of Chittagong,
+                    Bangladesh. Working across experimental wet-lab biology and computational drug discovery.
+                </p>
+                <div class="cover-buttons">
+                    <a href="research.html" class="btn primary-btn"><i class="fas fa-microscope"></i> View Research</a>
+                    <a href="contact.html" class="btn secondary-btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                </div>
+            </div>
+            <div class="cover-image-container">
+                <!-- Ambient Glow Backdrop -->
+                <div class="hero-image-glow"></div>
+                
+                <!-- Main Avatar Card Frame (Redesigned & Resized Squircle) -->
+                <div class="hero-avatar-card">
+                    <div class="hero-avatar-inner">
+                        <img src="images/Md. Mustak khan.png" alt="Md. Mustak Khan" class="hero-main-img" onerror="this.src='images/profile-placeholder.png'" loading="eager">
+                    </div>
+
+                    <!-- Status Pill on Image -->
+                    <div class="hero-status-pill">
+                        <span class="status-dot"></span>
+                        <span>Lab Manager &amp; Researcher</span>
+                    </div>
+                </div>
+
+                <!-- Floating Element 1: Top Right (Q1 Publications) -->
+                <div class="hero-float-badge float-badge-1">
+                    <div class="float-badge-icon icon-publications">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="float-badge-info">
+                        <span class="float-badge-val">2 Q1 Articles</span>
+                        <span class="float-badge-lbl">Nature &middot; Wiley</span>
+                    </div>
+                </div>
+
+                <!-- Floating Element 2: Bottom Left (CADD & Drug Discovery) -->
+                <div class="hero-float-badge float-badge-2">
+                    <div class="float-badge-icon icon-cadd">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="float-badge-info">
+                        <span class="float-badge-val">CADD &amp; MD</span>
+                        <span class="float-badge-lbl">Antiviral Discovery</span>
+                    </div>
+                </div>
+
+                <!-- Floating Element 3: Bottom Right (Wet Lab / In Vivo Model) -->
+                <div class="hero-float-badge float-badge-3">
+                    <div class="float-badge-icon icon-bio">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="float-badge-info">
+                        <span class="float-badge-val"><em>C. elegans</em></span>
+                        <span class="float-badge-lbl">In Vivo Model</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══ STATS BANNER STRIP ═════════════════════════════════════════════════ -->
+    <section class="home-stats-strip">
+        <div class="container">
+            <div class="home-stats-grid">
+                <div class="hstat-item">
+                    <span class="hstat-num">2</span>
+                    <span class="hstat-label">Peer-Reviewed Articles (Q1 Journals)</span>
+                </div>
+                <div class="hstat-item">
+                    <span class="hstat-num">3+</span>
+                    <span class="hstat-label">Research Focus Areas</span>
+                </div>
+                <div class="hstat-item">
+                    <span class="hstat-num">8+</span>
+                    <span class="hstat-label">Academic Milestones</span>
+                </div>
+                <div class="hstat-item">
+                    <span class="hstat-num">110+</span>
+                    <span class="hstat-label">Students Trained via BioPC</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══ LATEST NEWS & UPDATES SECTION ══════════════════════════════════════ -->
+    <section class="latest-news-section">
+        <div class="container">
+            <div class="expertise-header">
+                <span class="expertise-badge"><i class="fas fa-bell"></i> Highlights</span>
+                <h2>Latest News &amp; Updates</h2>
+                <p>Recent academic accomplishments, published research, and project milestones.</p>
+            </div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-date-badge"><i class="far fa-calendar-alt"></i> September 2026</div>
+                    <div class="news-content">
+                        <h4>Original Research Published in Nature (Scientific Reports)</h4>
+                        <p><em>A multi-level computational analysis identifies Ocimum basilicum phytochemicals as potent inhibitors of the Marburg virus VP40 matrix protein</em> published in <strong>Scientific Reports</strong> (DOI: <a href="https://doi.org/10.1038/s41598-026-71976-3" target="_blank" rel="noopener noreferrer">10.1038/s41598-026-71976-3</a>).</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-date-badge"><i class="far fa-calendar-alt"></i> March 2026</div>
+                    <div class="news-content">
+                        <h4>Review Paper Published in Wiley</h4>
+                        <p><em>Molecular Pharming: Advances, Applications, and Future Prospects in Biotechnology and
+                                Medicine</em> published in <strong>Engineering in Life Sciences</strong> (DOI: <a
+                                href="https://doi.org/10.1002/elsc.70075" target="_blank"
+                                rel="noopener noreferrer">10.1002/elsc.70075</a>).</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-date-badge"><i class="far fa-calendar-alt"></i> 2025 &ndash; 2026</div>
+                    <div class="news-content">
+                        <h4>MS Thesis Research Completed</h4>
+                        <p>Completed flagship thesis: <em>"In silico and in vivo study of antioxidant activity of
+                                phytochemicals from Houttuynia cordata, a perennial herb using molecular docking and
+                                Caenorhabditis elegans model."</em></p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-date-badge"><i class="fas fa-paper-plane"></i> 2026</div>
+                    <div class="news-content">
+                        <h4>Two Manuscripts Under Review (BioPC)</h4>
+                        <p>Co-authored research under review on <em>multi-epitope monkeypox (MPXV) vaccine design</em> and psychometric validation of the <em>Academic AI Usage &amp; Dependency Scale (AAIUDS)</em>.</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-date-badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981;"><i
+                            class="fas fa-bullhorn"></i> Aug &ndash; Sep 2026</div>
+                    <div class="news-content">
+                        <h4>Bioinformatics Research Internship 4.0 Launched</h4>
+                        <p>Leading a 4-month advanced research internship at <a href="https://biopc.org/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">BioPC</a> covering CADD, DFT, CAVD vaccine
+                            design, cancer bioinformatics, and manuscript writing. <strong>Registration deadline: 20 Sep
+                                2026</strong>. <a href="teaching.html">Learn more &rarr;</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══ BIO / WHO I AM SECTION ═════════════════════════════════════════════ -->
+    <section class="bio-section">
+        <div class="container">
+            <div class="expertise-header">
+                <span class="expertise-badge"><i class="fas fa-user"></i> About</span>
+                <h2>Who I Am</h2>
+                <p>A brief introduction to my scientific journey, background, and multidisciplinary focus.</p>
+            </div>
+            <div class="bio-content">
+                <div class="bio-text compact">
+                    <p class="lead">
+                        <strong>Md. Mustak Khan</strong> &mdash; Researcher in Biochemistry, Molecular Biology,
+                        Phytomedicine, and Bioinformatics at the University of Chittagong.
+                    </p>
+                    <p>
+                        I serve as Lab Manager and Graduate Research Assistant at the <strong><a href="https://cu.ac.bd/fbmh" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">Laboratory of Food Bioactives and Molecular Health</a></strong> (March 2023 &ndash; Present),
+                        overseeing operations, mentoring students, and executing <em>in vivo C. elegans</em> assays (37
+                        &deg;C thermal survival across hours, thrashing locomotion, lifespan curves, and brood size
+                        toxicity checks). Concurrently, I serve as a founding member and Research Project Lead at
+                        <strong><a href="https://biopc.org/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">BioPC</a></strong>, where I develop computational drug discovery pipelines, lead training
+                        workshops in CADD and network pharmacology, and build digital tools for the scientific
+                        community.
+                    </p>
+                    <p>
+                        My flagship MS thesis investigated the antioxidant activity and therapeutic potential of
+                        phytochemicals from <em>Houttuynia cordata</em> (a perennial herb) by integrating <em>in
+                            silico</em> molecular docking with comprehensive <em>in vivo</em> longevity, 37 &deg;C
+                        thermal survival, thrashing locomotion, and brood size toxicity evaluation in <em>Caenorhabditis
+                            elegans</em>.
+                    </p>
+
+                    <div class="research-link" style="margin-top: 24px;">
+                        <a href="about.html" class="btn primary-btn"><i class="fas fa-user-circle"></i> Learn More About
+                            Me &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══ RESEARCH TIMELINE SECTION ══════════════════════════════════════════ -->
+    <section class="timeline-section design-1 tpl-A">
+        <div class="container">
+            <div class="expertise-header">
+                <span class="expertise-badge"><i class="fas fa-history"></i> Milestones</span>
+                <h2>Academic &amp; Research Journey</h2>
+                <p class="timeline-note">Chronological milestones in education, leadership, and research discoveries.
+                </p>
+            </div>
+
+            <div class="spine">
+                <div class="row">
+                    <div class="card">
+                        <div class="meta"><span class="step">STEP 01</span><span class="date">2019 &ndash; 2024</span>
+                        </div>
+                        <h3>B.S. in Biochemistry &amp; Molecular Biology</h3>
+                        <div class="org">University of Chittagong, Bangladesh</div>
+                        <p>Completed 4-year undergraduate degree with comprehensive laboratory training in cellular
+                            biochemistry, enzymology, molecular genetics, microbiology, and biochemical toxicology.</p>
+                        <div class="card-tags">
+                            <span class="tag academic">Undergraduate</span>
+                        </div>
+                    </div>
+                    <div class="dotcol">
+                        <div class="dot"></div>
+                    </div>
+                    <div></div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <div class="meta"><span class="step">STEP 02</span><span class="date">2022 &ndash;
+                                Present</span></div>
+                        <h3>Founding Member &amp; Research Project Lead</h3>
+                        <div class="org"><a href="https://biopc.org/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">BioPC &mdash; Bioinformatics Lab of Research and Training</a></div>
+                        <p>Spearheading computational drug design, immuno-informatics for epitope-based vaccines,
+                            pan-cancer genomics, and mentoring students in computational biology workflows.</p>
+                        <div class="card-tags">
+                            <span class="tag research">Bioinformatics</span>
+                            <span class="tag leadership">Leadership</span>
+                        </div>
+                    </div>
+                    <div class="dotcol">
+                        <div class="dot"></div>
+                    </div>
+                    <div></div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <div class="meta"><span class="step">STEP 03</span><span class="date">March 2023 &ndash; Present</span></div>
+                        <h3>Lab Manager &amp; Graduate Research Assistant</h3>
+                        <div class="org"><a href="https://cu.ac.bd/fbmh" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">Laboratory of Food Bioactives and Molecular Health</a> &middot; University of Chittagong</div>
+                        <p>Managing laboratory operations, chemical inventories, and biosafety protocols (merging the former Laboratory of Applied Biosciences &amp; Laboratory of Food Science and Nutraceutical). Executing <em>C. elegans</em> genetics, longevity assays, fluorescence microscopy, and bioactive nutraceutical antioxidant evaluations.</p>
+                        <div class="card-tags">
+                            <span class="tag leadership">Lab Management</span>
+                            <span class="tag research">Research</span>
+                        </div>
+                    </div>
+                    <div class="dotcol">
+                        <div class="dot"></div>
+                    </div>
+                    <div></div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <div class="meta"><span class="step">STEP 04</span><span class="date">2024 &ndash; 2025</span>
+                        </div>
+                        <h3>Research Intern &amp; aiHealth Lab</h3>
+                        <div class="org">CHIRAL Bangladesh</div>
+                        <p>Gained hands-on experience in computational genomics, vaccine design, sequence alignment, and
+                            the applications of AI and machine learning in biomedical and healthcare research.</p>
+                        <div class="card-tags">
+                            <span class="tag research">Internship</span>
+                        </div>
+                    </div>
+                    <div class="dotcol">
+                        <div class="dot"></div>
+                    </div>
+                    <div></div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <div class="meta"><span class="step">STEP 05</span><span class="date">2024 &ndash; 2026</span>
+                        </div>
+                        <h3>M.S. in Biochemistry &amp; Molecular Biology</h3>
+                        <div class="org">University of Chittagong, Bangladesh</div>
+                        <p>Pursuing graduate research centered on the interdisciplinary evaluation of medicinal plant
+                            extracts using <em>C. elegans</em> model genetics, spectrophotometric assays, and
+                            computational drug discovery.</p>
+                        <div class="card-tags">
+                            <span class="tag academic">Graduate</span>
+                        </div>
+                    </div>
+                    <div class="dotcol">
+                        <div class="dot"></div>
+                    </div>
+                    <div></div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <div class="meta"><span class="step">STEP 06</span><span class="date">2025 &ndash; 2026</span>
+                        </div>
+                        <h3>Flagship MS Thesis Research</h3>
+                        <div class="org"><a href="https://cu.ac.bd/fbmh" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">Laboratory of Food Bioactives and Molecular Health</a> &middot; University of Chittagong</div>
+                        <p>Carried out thesis: <em>"In silico and in vivo study of antioxidant activity of
+                                phytochemicals from Houttuynia cordata, a perennial herb using molecular docking and
+                                Caenorhabditis elegans model."</em></p>
+                        <div class="card-tags">
+                            <span class="tag publication">Thesis</span>
+                        </div>
+                    </div>
+                    <div class="dotcol">
+                        <div class="dot"></div>
+                    </div>
+                    <div></div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <div class="meta"><span class="step">STEP 07</span><span class="date">March 2026</span></div>
+                        <h3>Peer-Reviewed Review Publication</h3>
+                        <div class="org">Engineering in Life Sciences, Wiley-VCH</div>
+                        <p>Published review article on molecular pharming and biopharmaceuticals in <em>Engineering in
+                                Life Sciences</em> (Wiley), bridging plant biotechnology with modern translational
+                            medicine.</p>
+                        <div class="card-tags">
+                            <span class="tag publication">Publication</span>
+                        </div>
+                    </div>
+                    <div class="dotcol">
+                        <div class="dot"></div>
+                    </div>
+                    <div></div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <div class="meta"><span class="step">STEP 08</span><span class="date">September 2026</span></div>
+                        <h3>Original Research Published in Nature Portfolio</h3>
+                        <div class="org">Scientific Reports, Nature Portfolio / Springer Nature</div>
+                        <p>Published peer-reviewed original research identifying <em>Ocimum basilicum</em> phytochemicals as potent inhibitors of Marburg virus VP40 protein via multi-level computational biology and 500 ns MD simulations.</p>
+                        <div class="card-tags">
+                            <span class="tag publication">Publication</span>
+                            <span class="tag" style="background: rgba(46, 204, 113, 0.15); color: #27ae60;">Nature Portfolio</span>
+                        </div>
+                    </div>
+                    <div class="dotcol">
+                        <div class="dot"></div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══ SCIENTIFIC EXPERTISE SECTION ═══════════════════════════════════════ -->
+    <section class="expertise-section">
+        <div class="container">
+            <div class="expertise-header">
+                <span class="expertise-badge"><i class="fas fa-layer-group"></i> Competencies</span>
+                <h2>Skills &amp; Core Competencies</h2>
+                <p>Proficiencies across experimental wet-lab biology, computational CADD, data science, and academic
+                    outreach.</p>
+            </div>
+
+            <div class="expertise-grid">
+                <div class="expertise-card exp-card-wetlab">
+                    <div class="expertise-icon"><i class="fas fa-flask"></i></div>
+                    <h3>Wet-Lab Research</h3>
+                    <p><em>C. elegans</em> culture &amp; lifespan assays, fluorescence microscopy, phytochemical
+                        extraction, and in vitro antioxidant assays (DPPH/ABTS/FRAP).</p>
+                    <div class="expertise-bar-wrap">
+                        <div class="expertise-bar-label"><span>Proficiency</span><span
+                                class="expertise-score">88%</span></div>
+                        <div class="expertise-bar"><span style="width: 88%"></span></div>
+                    </div>
+                </div>
+
+                <div class="expertise-card exp-card-compbio">
+                    <div class="expertise-icon"><i class="fas fa-dna"></i></div>
+                    <h3>Computational Biology</h3>
+                    <p>AutoDock Vina, PyRx, SwissADME, Discovery Studio, Cytoscape, STRING, and network pharmacology
+                        target prediction pipelines.</p>
+                    <div class="expertise-bar-wrap">
+                        <div class="expertise-bar-label"><span>Proficiency</span><span
+                                class="expertise-score">92%</span></div>
+                        <div class="expertise-bar"><span style="width: 92%"></span></div>
+                    </div>
+                </div>
+
+                <div class="expertise-card exp-card-data">
+                    <div class="expertise-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Data Analysis &amp; Tools</h3>
+                    <p>Python, R programming, tidyverse/ggplot2, statistical modeling, ImageJ biological image analysis,
+                        and Git/GitHub.</p>
+                    <div class="expertise-bar-wrap">
+                        <div class="expertise-bar-label"><span>Proficiency</span><span
+                                class="expertise-score">85%</span></div>
+                        <div class="expertise-bar"><span style="width: 85%"></span></div>
+                    </div>
+                </div>
+
+                <div class="expertise-card exp-card-writing">
+                    <div class="expertise-icon"><i class="fas fa-book-open"></i></div>
+                    <h3>Scientific Writing</h3>
+                    <p>Peer-reviewed manuscript writing, literature synthesis, thesis drafting, citation management, and
+                        academic presentation.</p>
+                    <div class="expertise-bar-wrap">
+                        <div class="expertise-bar-label"><span>Proficiency</span><span
+                                class="expertise-score">90%</span></div>
+                        <div class="expertise-bar"><span style="width: 90%"></span></div>
+                    </div>
+                </div>
+
+                <div class="expertise-card exp-card-teaching">
+                    <div class="expertise-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h3>Teaching &amp; Mentorship</h3>
+                    <p>Curriculum design, hands-on workshop facilitation, student mentorship, and bio-community
+                        leadership via <a href="https://biopc.org/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">BioPC</a>.</p>
+                    <div class="expertise-bar-wrap">
+                        <div class="expertise-bar-label"><span>Proficiency</span><span
+                                class="expertise-score">95%</span></div>
+                        <div class="expertise-bar"><span style="width: 95%"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-link" style="margin-top: 32px;">
+                <a href="about.html" class="btn primary-btn"><i class="fas fa-user-shield"></i> Explore Full Profile
+                    &amp; Skills &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══ RESEARCH AREAS & FLAGSHIP PREVIEW ══════════════════════════════════ -->
+    <section class="research-section">
+        <div class="container">
+            <div class="expertise-header">
+                <span class="expertise-badge"><i class="fas fa-flask"></i> Research</span>
+                <h2>Research Areas</h2>
+                <p>Interdisciplinary investigations across phytochemical nutraceuticals, computational biology, and in
+                    vivo model systems.</p>
+            </div>
+
+            <!-- Featured Flagship Mini-Card -->
+            <div class="home-featured-thesis-card">
+                <div class="featured-thesis-badge"><i class="fas fa-award"></i> Flagship Project &middot; MS Thesis
+                </div>
+                <h3><em>In Silico and In Vivo Study of Antioxidant Activity of Phytochemicals from Houttuynia
+                        cordata</em></h3>
+                <p class="featured-thesis-subtitle">A Perennial Herb Using Molecular Docking and <em>Caenorhabditis
+                        elegans</em> Model</p>
+                <div class="thesis-method-chips" style="margin: 14px 0;">
+                    <span class="method-chip chip-docking">Molecular Docking</span>
+                    <span class="method-chip chip-elegans"><em>C. elegans</em> Model</span>
+                    <span class="method-chip chip-plant"><em>Houttuynia cordata</em></span>
+                    <span class="method-chip chip-gcms">Phytochemicals</span>
+                    <span class="method-chip chip-admet">In Silico &amp; In Vivo</span>
+                </div>
+                <a href="research.html#ms-thesis" class="featured-thesis-btn"><i class="fas fa-arrow-right"></i> View
+                    Full Thesis Details &rarr;</a>
+            </div>
+
+            <div class="research-links">
+                <div class="research-link-item">
+                    <img src="images/research-nutrition.jpg" alt="Nutritional and Phytomedicine Research"
+                        loading="lazy">
+                    <div class="research-link-content">
+                        <h3>Nutritional &amp; Phytomedicine Research</h3>
+                        <p>Phytochemical extraction, total phenolic/flavonoid profiling, and multi-assay antioxidant
+                            evaluations of indigenous plant samples.</p>
+                    </div>
+                </div>
+
+                <div class="research-link-item">
+                    <img src="images/Bioinformatics_Research.png" alt="Bioinformatics and CADD Research" loading="lazy">
+                    <div class="research-link-content">
+                        <h3>Bioinformatics, CADD &amp; AI</h3>
+                        <p>Leading multi-epitope vaccine design (Monkeypox MPXV), antiviral drug discovery (Marburg virus
+                            VP40 inhibitors), psychometric AI scale modeling (AAIUDS), and network pharmacology via <a href="https://biopc.org/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">BioPC Lab</a>.</p>
+                    </div>
+                </div>
+
+                <div class="research-link-item">
+                    <img src="images/gallery/TG-100 _Day5.gif" alt="In vivo studies with C. elegans" loading="lazy">
+                    <div class="research-link-content">
+                        <h3><em>In Vivo</em> Model Assays (<em>C. elegans</em>)</h3>
+                        <p>Conducting 37 &deg;C thermal stress survival assays across different hourly timepoints,
+                            thrashing assays for locomotion movement, solid-media lifespan curves, and brood size /
+                            progeny toxicity screening.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-link research-link-center" style="margin-top: 36px;">
+                <a href="research.html" class="btn primary-btn"><i class="fas fa-search-plus"></i> Explore All Research
+                    Projects &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══ RECENT PUBLICATION SECTION ═════════════════════════════════════════ -->
+    <section class="research-section">
+        <div class="container">
+            <div class="expertise-header">
+                <span class="expertise-badge"><i class="fas fa-book"></i> Publications</span>
+                <h2>Recent Publications</h2>
+                <p>Peer-reviewed contributions in leading scientific and biotechnology journals.</p>
+            </div>
+                        <div class="publication-preview-item" style="margin-bottom: 24px; border-left: 4px solid #2ecc71;">
+                <div class="publication-preview-grid">
+                    <div class="publication-preview-content">
+                        <div class="pub-badge-row">
+                            <span class="pub-type-badge" style="background: rgba(46, 204, 113, 0.15); color: #27ae60;"><i class="fas fa-lock-open"></i> Open Access Research</span>
+                            <span class="pub-journal-badge" style="background: rgba(52, 152, 219, 0.15); color: #2980b9;">Nature Portfolio &middot; Q1</span>
+                        </div>
+                        <h3>A multi-level computational analysis identifies <em>Ocimum basilicum</em> phytochemicals as potent inhibitors of the Marburg virus VP40 matrix protein</h3>
+                        <p class="publication-authors">
+                            <span>MF Rahman</span>,
+                            <span class="publication-author-highlight">MM Khan</span>,
+                            <span>MH Ahmed</span>,
+                            <span>S Dutta</span>,
+                            <span>FN Tapti</span>,
+                            <span class="publication-author-italic">...et al.</span>
+                        </p>
+                        <p class="publication-journal">
+                            <strong>Scientific Reports</strong>
+                            <span class="divider">|</span>
+                            <span>Nature Portfolio / Springer Nature</span>
+                        </p>
+                        <div class="publication-meta">
+                            <div>
+                                <i class="far fa-calendar-alt"></i>
+                                <span>Published: 25 September 2026</span>
+                            </div>
+                            <div>
+                                <i class="fas fa-barcode"></i>
+                                <span>DOI: <a href="https://doi.org/10.1038/s41598-026-71976-3" target="_blank" rel="noopener noreferrer">10.1038/s41598-026-71976-3</a></span>
+                            </div>
+                        </div>
+                        <div class="publication-actions">
+                            <a href="https://www.nature.com/articles/s41598-026-71976-3.pdf" target="_blank" rel="noopener noreferrer" class="publication-action-btn">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Download PDF</span>
+                            </a>
+                            <a href="https://doi.org/10.1038/s41598-026-71976-3" target="_blank" rel="noopener noreferrer" class="publication-action-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>View Article</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="publication-preview-item">
+                <div class="publication-preview-grid">
+                    <div class="publication-preview-content">
+                        <div class="pub-badge-row">
+                            <span class="pub-type-badge"><i class="fas fa-check-circle"></i> Peer-Reviewed Review</span>
+                            <span class="pub-journal-badge">Wiley-VCH &middot; Q1</span>
+                        </div>
+                        <h3>Molecular Pharming: Advances, Applications, and Future Prospects in Biotechnology and
+                            Medicine</h3>
+                        <p class="publication-authors">
+                            <span>MH Ahmed</span>,
+                            <span class="publication-author-highlight">MM Khan*</span>,
+                            <span>S Dutta</span>,
+                            <span>MF Rahman</span>,
+                            <span class="publication-author-italic">...et al.</span>
+                        </p>
+                        <p class="publication-journal">
+                            <strong>Engineering in Life Sciences</strong>
+                            <span class="divider">|</span>
+                            <span>Wiley-VCH Verlag GmbH &amp; Co. KGaA</span>
+                        </p>
+                        <div class="publication-meta">
+                            <div>
+                                <i class="far fa-calendar-alt"></i>
+                                <span>Published: 12 March 2026</span>
+                            </div>
+                            <div>
+                                <i class="fas fa-barcode"></i>
+                                <span>DOI: <a href="https://doi.org/10.1002/elsc.70075" target="_blank"
+                                        rel="noopener noreferrer">10.1002/elsc.70075</a></span>
+                            </div>
+                        </div>
+                        <div class="publication-actions">
+                            <a href="https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/elsc.70075"
+                                target="_blank" rel="noopener noreferrer" class="publication-action-btn">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Download PDF</span>
+                            </a>
+                            <a href="https://doi.org/10.1002/elsc.70075" target="_blank" rel="noopener noreferrer"
+                                class="publication-action-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>View Article</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-link" style="margin-top: 28px;">
+                <a href="publications.html" class="btn primary-btn"><i class="fas fa-newspaper"></i> View All
+                    Publications &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══ COLLABORATION & CONNECT SECTION ════════════════════════════════════ -->
+    <section class="connection-section">
+        <div class="container">
+            <div class="expertise-header">
+                <span class="expertise-badge"><i class="fas fa-handshake"></i> Get In Touch</span>
+                <h2>Connect &amp; Collaborate</h2>
+                <p>Open for research collaborations, academic exchanges, and computational biology projects.</p>
+            </div>
+            <div class="connect-grid">
+                <div class="contact-card">
+                    <div class="primary-contact">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:mustakkhan.bmb@std.cu.ac.bd">mustakkhan.bmb@std.cu.ac.bd</a>
+                    </div>
+                    <p>I welcome research collaborations, student inquiries, speaking invitations, and peer discussions.
+                        Reach out directly or connect across academic platforms.</p>
+                    <p class="availability-note"><i class="fas fa-check-circle" style="color: #10b981;"></i>
+                        <strong>Status:</strong> Open to collaborative research projects and computational workflows.
+                    </p>
+                    <div style="margin-top: 18px;">
+                        <a href="contact.html" class="btn primary-btn" style="padding: 9px 20px; font-size: 0.85rem;"><i
+                                class="fas fa-paper-plane"></i> Send Direct Message</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="social-grid">
+                        <a href="https://scholar.google.com/citations?user=zZUhNasAAAAJ&hl=en&oi=ao" class="social-link"
+                            target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Google Scholar</span>
+                        </a>
+                        <a href="https://orcid.org/0009-0002-1472-5953" class="social-link" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-orcid"></i>
+                            <span>ORCID</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/md-mustak-khan" class="social-link" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.researchgate.net/profile/Md-Khan-420?ev=hdr_xprf" class="social-link"
+                            target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-researchgate"></i>
+                            <span>ResearchGate</span>
+                        </a>
+                        <a href="https://github.com/md-mustak-khan" class="social-link" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://x.com/md_mustak_khan" class="social-link" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter / X</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══ FOOTER SECTION ═════════════════════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-brand-header">
+                        <a href="https://md-mustak-khan.github.io/"><img src="logo_main.png" alt="Logo"
+                                class="footer-logo"></a>
+                        <h3 class="footer-brand-title">Md. Mustak Khan</h3>
+                    </div>
+                    <h4 class="footer-connect-title">Connect With Me</h4>
+                    <div class="social-links-footer">
+                        <a href="mailto:mustakkhan.bmb@std.cu.ac.bd" class="social-link-footer" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=zZUhNasAAAAJ&hl=en&oi=ao"
+                            class="social-link-footer" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="https://orcid.org/0009-0002-1472-5953" class="social-link-footer" target="_blank"
+                            rel="noopener noreferrer" title="ORCID">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/md-mustak-khan" class="social-link-footer" target="_blank"
+                            rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.researchgate.net/profile/Md-Khan-420?ev=hdr_xprf"
+                            class="social-link-footer" target="_blank" rel="noopener noreferrer" title="ResearchGate">
+                            <i class="fab fa-researchgate"></i>
+                        </a>
+                        <a href="https://github.com/md-mustak-khan" class="social-link-footer" target="_blank"
+                            rel="noopener noreferrer" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/md_mustak_khan" class="social-link-footer" target="_blank"
+                            rel="noopener noreferrer" title="Twitter / X">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="https://md-mustak-khan.github.io/">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="protocols.html">Lab Protocols</a></li>
+                        <li><a href="resources.html">Tools &amp; Resources</a></li>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Information</a></li>
+                        <li><a href="advisor.html">Advisor</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Md. Mustak Khan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
